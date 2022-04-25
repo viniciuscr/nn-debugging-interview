@@ -1,8 +1,8 @@
 {
-  "name": "hello-movie-title",
+  "name": "nn-debugging-interview",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Casper Kuijjer <casper@kuijjer.com>",
+  "author": "NN Bank Engineers",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
