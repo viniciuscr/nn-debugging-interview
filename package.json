@@ -1,0 +1,14 @@
+{
+  "name": "hello-movie-title",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Casper Kuijjer <casper@kuijjer.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
