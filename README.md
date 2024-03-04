@@ -1,17 +1,18 @@
-# A Movie Title Case Exercise in JavaScript
+# Parcel Express - a delivery company
+After years in the market, Parcel express has developed the perfect sorting system for maximum efficiency, that allows us to delivery parcels in the same day that they are picked up.
+This is the company biggest marketing advertise, so we are here to make sure that it happens, sometimes.
+Unfortunately the logistics are a little tied and parcels must be processed at our headquarters. It can takes longer than expected and some deliveries end up delayed.
+Tha is why we have a perfect system to guarantee that the parcels with the same origin and destination are delivered on the same day.
 
-Create a function that converts a string into title case:
+## The perfect delivery system
+Parcels are grouped and sorted on a daily basis focusing on the optimal route for our curries. Each currie will have a list os parcels to delivery during the day and our system gives a list with the order which the parcels must be delivered. This is the secret of our business, it is what makes the manager happy even if we delay a few parcels. Do not tell anyone the algorithm below!
 
-- Every word should be capitalized (first letter in uppercase, and the rest in lowercase).
-- Except for words that are considered a minor word, these should be in lowercase.
-- The first word should always be capitalized.
 
-The minor words can be given as the second argument using a string with minor words separated by spaces, and should be used independent of casing.
+- First, parcels are sorted by the city of destination, so the currie can finish one city at time, no back and forward.
+- Next, ordered by street address, so we save some time with traffic
+- Finally, the big secret: parcels where picked up and delivered in the same city have priority ONE to be delivered and must be on top of the list no matter what!
 
-## Examples
-
-```
-titleCase('a clash of KINGS', 'a an the of'); // 'A Clash of Kings'
-titleCase('THE WIND IN THE WILLOWS', 'The In'); // 'The Wind in the Willows'
-titleCase('the quick brown fox'); // 'The Quick Brown Fox'
-```
+## The problem
+Usually Joe sort all packages, Joe is or oldest employee and know everything, we love Joe. But Joe does not love to work here, so he will retire next week. 
+Now, we are working os a system that replaces Joe, and you will help us to fix the issues on our new system that controls all deliveries in the Netherlands. No Pressure.
+Luckily, we wrote some tests based in Joe's guidance. So you can be sure that if the tests are working, the system has Joe's seal of approval and everything will be alright.
