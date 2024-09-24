@@ -13,6 +13,6 @@ Parcels are grouped and sorted on a daily basis focusing on the optimal route fo
 - Finally, the big secret: parcels where picked up and delivered in the same city have priority ONE to be delivered and must be on top of the list no matter what!
 
 ## The problem
-Usually Joe sort all packages, Joe is or oldest employee and know everything, we love Joe. But Joe does not love to work here, so he will retire next week. 
+Usually Joe sort all packages, Joe is our oldest employee and know everything, we love Joe. But Joe does not love to work here, so he will retire next week. 
 Now, we are working os a system that replaces Joe, and you will help us to fix the issues on our new system that controls all deliveries in the Netherlands. No Pressure.
 Luckily, we wrote some tests based in Joe's guidance. So you can be sure that if the tests are working, the system has Joe's seal of approval and everything will be alright.
